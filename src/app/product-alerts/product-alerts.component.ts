@@ -16,6 +16,8 @@ export class ProductAlertsComponent implements OnInit {
   ngOnInit() {
   }
 
-
+  onClickMe() {
+    window.alert('Onclick biutton displayed only when price less than 700!');
+  }
 
 }
